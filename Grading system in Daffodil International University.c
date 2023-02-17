@@ -1,3 +1,4 @@
+//the.shoaib2
 #include<stdio.h>
 int main() {
 int marks;
@@ -16,7 +17,7 @@ scanf("%d", &marks);
 
 double CGPA = (marks * 4)/80;
 
-if (marks >= 0 && marks < 39)
+if (marks >= 0 && marks <= 39)
 {  
    printf("Your marks :%d\n",marks);
    printf("Grades: F \n");

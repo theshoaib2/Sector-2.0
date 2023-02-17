@@ -1,4 +1,5 @@
- #include <stdio.h>
+ //the.shoaib2
+#include <stdio.h>
  int main(){
     int N, A;
     scanf("%d", &N);
