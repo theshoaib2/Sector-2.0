@@ -1,6 +1,6 @@
-//the.shoaib2
+// the.shoaib2
 #include <stdio.h>
-int main ()
+int main()
 {
 
 	unsigned short linha, coluna;
@@ -11,5 +11,5 @@ int main ()
 		printf("1\n");
 	else
 		printf("0\n");
-return 0;
+	return 0;
 }

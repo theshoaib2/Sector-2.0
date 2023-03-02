@@ -1,4 +1,4 @@
-//the.shoaib2
+// the.shoaib2
 #include <stdio.h>
 
 int main()
@@ -7,20 +7,20 @@ int main()
     int i;
     int A = 0, B = 0, C = 0;
 
-    for(i = 0; i < 5; i++)
+    for (i = 0; i < 5; i++)
     {
         scanf("%d", &vetor[i]);
     }
 
-    for(i = 1; i < 4; i++)
+    for (i = 1; i < 4; i++)
     {
-        if (vetor[i] < vetor[i+1] && vetor[i-1] < vetor[i])
+        if (vetor[i] < vetor[i + 1] && vetor[i - 1] < vetor[i])
             A++;
 
-        else if (vetor[i] > vetor[i+1] && vetor[i-1] > vetor[i])
+        else if (vetor[i] > vetor[i + 1] && vetor[i - 1] > vetor[i])
             B++;
 
-        else 
+        else
         {
             C = 3;
             break;
@@ -37,5 +37,4 @@ int main()
         printf("N\n");
 
     return 0;
-       
 }

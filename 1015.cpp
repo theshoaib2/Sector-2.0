@@ -10,3 +10,4 @@
      printf("%.4lf\n", D);
      return 0;
     }  
+
